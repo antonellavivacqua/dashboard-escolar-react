@@ -74,8 +74,3 @@ Ejecutar entorno de desarrollo:
 ```bash
 npm run dev
 ```
-
-
-## Estado
-
-Proyecto personal finalizado y abierto a futuras mejoras.
