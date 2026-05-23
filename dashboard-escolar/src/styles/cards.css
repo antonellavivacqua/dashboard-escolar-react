@@ -1,0 +1,30 @@
+.grid-materias {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(240px, 1fr));
+
+  gap: 16px;
+}
+
+.materia-card {
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+
+  padding: 20px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+
+  color: #8b95a7;
+
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: var(--danger);
+}

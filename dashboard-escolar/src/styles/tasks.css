@@ -1,0 +1,22 @@
+.lista-tareas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tarea-item {
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+
+  padding: 16px 18px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto-completado {
+  text-decoration: line-through;
+  opacity: 0.55;
+}
