@@ -53,24 +53,3 @@ src/
 └── index.css
 ```
 
----
-
-## Instalación
-
-Clonar el repositorio:
-
-```bash
-git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
-```
-
-Instalar dependencias:
-
-```bash
-npm install
-```
-
-Ejecutar entorno de desarrollo:
-
-```bash
-npm run dev
-```
